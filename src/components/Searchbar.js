@@ -5,7 +5,7 @@ export default function Searchbar({ onSubmit }) {
 	const [searchTerm, setsearchTerm] = useState('');
 
 	const handleInputChange = (e) => {
-		console.log(e.target.value);
+// 		console.log(e.target.value);
 		setsearchTerm(e.target.value);
 	};
 
